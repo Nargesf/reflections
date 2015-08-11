@@ -1,0 +1,39 @@
+1. How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+	Could identify the differences between all the changed words, so if there was a typo, we could see it more clearly now
+
+2. How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+	To see your progress and the steps toward developing a huge project, can make you more experienced so you won't make the same mistakes again
+	keep track of all the historical changes made in the code, any reverts or new changes
+
+
+3. What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+	pros.
+		- you always are used to your mind-set when you need to save the changes, and it's cool that you can add a short message to any changes you've made, so you won't forget what you did in future
+	Cons.
+		- If you forget to save the changes, the file save automatically to the latest version
+
+4. Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+	
+	The Git looks at all the files as one project put in one repository and assumes the files are dependant to eachother. This is not the case for google docs where it treats each file separately, and doesn't consider any connection/ dependability between them.
+
+5. How can you use the commands git log and git diff to view the history of files?
+	
+	git log shows all the historical commits we've mad to the repository, and for going in to the details (every single line) of the changes we've made,
+	we use git diff and compare the commit id with it's previous commit "git diff id#1 id#2". This command shows us all the insertion and deletion of lines by transiting from one ID to the other one.
+
+6. How might using version control make you more confident to make changes that could break something?
+
+	Using git makes sure you're never missing any edits at any level of your work. If you think you've made a mistake and you need a previous version of your code, you just revert back to that version by 'git checkout #commitID'. However, always remember to write a message for each commit, so you can remember why you made a commit, or what was the changes which might have cause some bugs. 
+
+7. Now that you have your workspace set up, what do you want to try using Git for?
+	making a commit in a project, try to work with it a bit to make sure I'm using it in the right way. so excited!
+
+8. Some items learned in lesson 1: 
+	i. Compare two commits: git diff which takes two arguments (commit IDs)
+	ii. Make a copy of the whole git repository, including the history and all the files to your local machine: git clone which takes the url of the repository as the aargument
+	iii. Temporary reset all the files in the git to a version at a specific time: git checkout which takes the commitID of the commit you wanna revert back to as the argument
+	iv. Show all the commits made in a repository, starting from the most recent one: git log doesn't need any argument
+
+9. 
