@@ -9,3 +9,9 @@
 3. How can you use the staging area to make sure you have one commit per logical change?
 
 	Per logical change to each file, we add it to the staging area and make a commit, and so on
+
+4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	You may have edited a same originated file in different ways, and want to track all the changes for each way. Branches help you implement different modes of the same project. For instance, if you are developing a game you can use branches to create 'easy', 'medium', and 'hard' mode of your game.
+
+5. 
