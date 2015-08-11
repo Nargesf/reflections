@@ -5,3 +5,7 @@
 2. How is the staging area different from the working directory and the repository? What value do you think it offers?
 	
 	The staging area plays a kinda mediocre role between the working directory and the repository. Before committing  any changes to the repository, we add them to the staging area, and then they will be ready to be commited. The value it makes includes: it makes your commits more organized, i.e. if you don't want all of the edits to your files to be in one commits, so you just add the files you want to the staging area by "git add" command, and then commit them to the repository. 
+
+3. How can you use the staging area to make sure you have one commit per logical change?
+
+	Per logical change to each file, we add it to the staging area and make a commit, and so on
