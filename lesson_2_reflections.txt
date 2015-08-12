@@ -18,5 +18,10 @@
 	
 	The diagram visualize all the commits and their connections to their parents. It works just like a directed graph. All the nodes which are reachable from the root of a branch re included in that branch. The last node (commit) we reach and doesn't have a parent is the first commit we've made. We should always be careful not to forget creating branches.
 
+6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	The merging makes sure no revisions are lost nor any redundant codes are appeared anymore. We represent it in the diagram as one master branch which includes all the commits of all the branches in it. The commits we merge become one commit with two parents.
+
 	
+
 
