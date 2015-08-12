@@ -14,4 +14,9 @@
 
 	You may have edited a same originated file in different ways, and want to track all the changes for each way. Branches help you implement different modes of the same project. For instance, if you are developing a game you can use branches to create 'easy', 'medium', and 'hard' mode of your game.
 
-5. 
+5. How do the diagrams help you visualize the branch structure?
+	
+	The diagram visualize all the commits and their connections to their parents. It works just like a directed graph. All the nodes which are reachable from the root of a branch re included in that branch. The last node (commit) we reach and doesn't have a parent is the first commit we've made. We should always be careful not to forget creating branches.
+
+	
+
