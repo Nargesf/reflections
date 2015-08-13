@@ -2,3 +2,7 @@
 
   Whenever you think your project is in a kinda stable position, and you want to publish it or share it
   with others remotely.
+
+ 2. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+ 	There might always be some chnges you don't want to publish online, and also some changes you have online and don't want to be in your local directory. 
