@@ -22,6 +22,11 @@
 
 	The merging makes sure no revisions are lost nor any redundant codes are appeared anymore. We represent it in the diagram as one master branch which includes all the commits of all the branches in it. The commits we merge become one commit with two parents.
 
-	
+
+7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	If you merge manually, it's always painful to look for every single difference you've made and merge the files, and there is always the chance that you miss someone else's changes in the file. Git automatically merges wherever it doesn't find any conflict and if it does it fails to merge, however it show you wherever it found a conflict so basically makes it much easier for you to merge and that's the only time when manually is prefered because git cannot find the best way to edit it itself.
+
+
 
 
