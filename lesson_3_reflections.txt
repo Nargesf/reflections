@@ -14,3 +14,18 @@
  	Clone: From github reporitory on my local machine. I need to add some odification and the github editor is not good enough for it/ I don't want it to be published officially on my github
 
  	Branches: Whenever you are doing something new in your project and its kinda experimental or another mode of the project we provide branches. If the experiment goes well, we may want to  merge the branch to our master :)
+
+
+ 4. What is the benefit of having a copy of the last known state of the remote stored locally?
+
+ 	To never lose the track of data in the origin remote, and merge it with your changes whenever necessary. It helps a lot i.e. not to make duplicate changes with the others in remote or always know the latest state of the project in the remote repository
+
+
+ 5. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+ 	I should have contact people I'm collaborating with by email or call them to let them now what changes I need to be made in each repository which can be painful after a while. It's easier since always in person interactions are much more clear but it's so much harder in that it takes a lot of time & sometimes can be confusing
+
+ 6. When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+ 	It's always a better idea to deal with master as your official branch where every little final results which is working is there, and branches as 
+ 	different experiments you do on your project to go with different approaches and see if it works. If it does, then we merge it into the master branch
